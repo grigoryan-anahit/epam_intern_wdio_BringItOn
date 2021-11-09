@@ -1,0 +1,84 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1635427245626' stop='1635427251592'>
+    <name>My Paste application</name>
+    <title>My Paste application</title>
+    <test-cases>
+        <test-case start='1635427245626' status='broken' stop='1635427251591'>
+            <name>should set values</name>
+            <title>should set values</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.54'/>
+            </parameters>
+            <steps>
+                <step start='1635427245628' status='passed' stop='1635427245763'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='df78f01c-d4f1-481e-8a71-71c976b18aef-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1635427245764' status='passed' stop='1635427249077'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='90984836-2c27-4319-b28c-bda1c11dbe9b-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1635427249080' status='passed' stop='1635427249104'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2eb5b8f5-7df1-4b37-b7e7-ba7328058b10-attachment.json' type='application/json' size='58'/>
+                        <attachment title='Response' source='1297e355-6f03-4432-a3a9-25c42d473476-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1635427249119' status='passed' stop='1635427249147'>
+                    <name>POST /session/:sessionId/element/24534152-1642-4853-93ba-580080e94ab8/clear</name>
+                    <title>POST /session/:sessionId/element/24534152-1642-4853-93ba-580080e94ab8/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1635427249186' status='passed' stop='1635427249369'>
+                    <name>POST /session/:sessionId/element/24534152-1642-4853-93ba-580080e94ab8/value</name>
+                    <title>POST /session/:sessionId/element/24534152-1642-4853-93ba-580080e94ab8/value</title>
+                    <attachments>
+                        <attachment title='Request' source='b5425410-a71b-45dd-baba-b0d87e9ba7a8-attachment.json' type='application/json' size='163'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1635427251375' status='passed' stop='1635427251408'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6dbc84c8-c189-4a20-a19c-daea0839bcb6-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='cc2ddd42-c94f-45b6-8ff6-ca9d41affdfc-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1635427251414' status='passed' stop='1635427251589'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='fe0ee162-8b7e-48a2-835a-e694858b35f9-attachment.png' type='image/png' size='143340'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Element could not be found</message>
+                <stack-trace>Error: Element could not be found
+                    at C:\Users\Anahit_Grigoryan1\WDIO_PROJECTS\homework\Bring It On\node_modules\@wdio\utils\build\shim.js:245:31
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
